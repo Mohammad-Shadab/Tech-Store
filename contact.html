@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Tech Store: Product Details
+    </title>
+</head>
+
+<body>
+<header><h1>Tech Store</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">SHOP</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <input type="search" placeholder="search...">
+        
+    </header>
+
+<aside>
+    <h2>Shop By:</h2>
+    <section>
+        <h3>Categoy</h3> 
+        <hr>
+        <ul>
+            <li>All item</li>
+            <li>Cameras</li>
+            <li>Laptops</li>
+            <li>Phones</li>
+            <li>Accessories</li>
+            <li>Others</li>
+        </ul>
+    </section>
+   
+    <section>
+        <h3>Price <span>($)</span></h3>
+        <hr>
+        <ul>
+        <li>1-9</li>
+        <li>10-19</li>
+        <li>20-39</li>
+        <li>40-69</li>
+        <li>70+</li>
+        </ul>
+    </section>
+    
+</aside>
+
+<main>
+    <h2>Contact Us:</h2>
+
+    <form>
+
+        <div>
+            <label for="name">Name:</label>  <input type="text" placeholder="Enter your name" id="name" name="name">
+        </div>
+
+        <div>
+           <label for="email">Email:</label> <input type="email" placeholder="Enter your email" id="email" name="email">
+        </div>
+
+        <div>
+           
+            <label for="message">Message:</label> <textarea cols="30" rows="5" id="message" name="message"></textarea>
+        </div>
+
+        <!-- <div>
+            <label for="subject">Subject:</label>
+            <select id="subject">
+                <optgroup label="Pruduct issues">
+                    <option value="returns">Returns</option>
+                    <option value="faulty_item">Faulty item</option>
+                </optgroup>
+
+                <optgroup label="Delivery">
+                    <option value="delivery">Delivery info</option>
+                    <option value="order_tracking">Track my order</option>
+                </optgroup>
+
+                <optgroup label="Other">
+                    <option value="advice">Advice</option>
+                    <option value="other">Other</option>
+                </optgroup>
+
+            </select>
+        </div> -->
+        <div>
+            <label for="subject">Subject</label>
+            <input type="text" list="subjects" id="subject" name="subject" placeholder="Enter your subject">
+            <datalist id="subjects">
+                <option value="returns">
+                <option value="faulty item">  
+                <option value="delivery">    
+                <option value="order tracking">
+                <option value="advice">
+                <option value="other">        
+            </datalist>
+        </div>
+
+        <div>
+            <p>Subscribe to future offers by:</p>
+            <label for="newsletter" >Newsletter</label>
+            <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
+            <label for="email" >Email</label>
+            <input type="checkbox" id="email" name="subscribe" value="email">
+            <label for="post" >Post</label>
+            <input type="checkbox" id="post" name="subscribe" value="post">
+        </div>
+
+        <div>
+            <p>How would you like us to respond?</p>
+            <label for="phoneresponse">Phone</label>
+            <input type="radio" id="phoneresponse" name="response" value="phone">
+            <label for="emailresponse">Email</label>
+            <input type="radio" id="emailresponse" name="response" value="email">
+        </div>
+        
+        <input type="submit">
+        <!-- <button type="submit">Send message</button> -->
+        <input type="reset">
+    </form>
+
+    <iframe width="600" height="450" frameborder="0" style="border:0"
+    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJv98LNXj_kTkRhjVQwFEkp8Q&key=AIzaSyCeNAHFsGWdqYFX6wKToI8hVgyAigt6L7o" allowfullscreen></iframe>
+    
+    
+</main>
+
+<footer>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">SHOP</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            
+        </ul>
+    </nav>
+    
+</footer>
+
+
+</body>
+</html>
