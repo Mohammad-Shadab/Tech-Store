@@ -2,21 +2,24 @@
 <html lang="en" >
 <head>
     <meta charset="UTF-8">
-    <title>
-        Tech Store: Product Details
-    </title>
+    <title>Tech Store: Product Details</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 <header><h1>Tech Store</h1>
     <nav>
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="">SHOP</a></li>
-            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="index.html">HOME&nbsp;&nbsp;</a></li>
+            <li><a href="">SHOP&nbsp;&nbsp;</a></li>
+            <li><a href="contact.html">CONTACT US&nbsp;&nbsp;</a></li>
         </ul>
     </nav>
-    <input type="search" placeholder="search...">
+    <input type="search" id="float" placeholder="search...">
         
     </header>
 
@@ -54,15 +57,15 @@
 
     <form>
 
-        <div>
+        <div class="inline">
             <label for="name">Name:</label>  <input type="text" placeholder="Enter your name" id="name" name="name">
         </div>
 
-        <div>
+        <div class="inline">
            <label for="email">Email:</label> <input type="email" placeholder="Enter your email" id="email" name="email">
         </div>
 
-        <div>
+        <div class="inline">
            
             <label for="message">Message:</label> <textarea cols="30" rows="5" id="message" name="message"></textarea>
         </div>
@@ -87,7 +90,7 @@
 
             </select>
         </div> -->
-        <div>
+        <div class="inline">
             <label for="subject">Subject</label>
             <input type="text" list="subjects" id="subject" name="subject" placeholder="Enter your subject">
             <datalist id="subjects">
@@ -100,7 +103,7 @@
             </datalist>
         </div>
 
-        <div>
+        <div >
             <p>Subscribe to future offers by:</p>
             <label for="newsletter" >Newsletter</label>
             <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
@@ -110,7 +113,7 @@
             <input type="checkbox" id="post" name="subscribe" value="post">
         </div>
 
-        <div>
+        <div >
             <p>How would you like us to respond?</p>
             <label for="phoneresponse">Phone</label>
             <input type="radio" id="phoneresponse" name="response" value="phone">
