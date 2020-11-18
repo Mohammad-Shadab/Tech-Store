@@ -13,7 +13,7 @@ body{
 header, footer {
     background: #333a40;
     color: white;
-    padding: 20px;
+    padding: 25px;
 }
 
 ul{
@@ -29,6 +29,9 @@ li{
 a {
     text-decoration: none;
     color: inherit;
+}
+a:hover {
+    color: cornflowerblue;
 }
 
 header li {
@@ -53,7 +56,7 @@ main {
 }
 aside{
     position: sticky;
-    top:0px;
+    top:-20px;
     width: 270px;
     display: inline-block;
     vertical-align: top;
@@ -90,6 +93,25 @@ img{
 .product-details img{
     max-width: 50%;
     float: left;
+}
+
+table , td , th {
+    border:1px solid black;
+    text-align: center;
+    
+
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin:10px;
+    margin-top:30px;
+    
+}
+th {
+    color: white;
+    background-color: #444;
+    height: 35px;
 }
 
 /*Contact us*/
